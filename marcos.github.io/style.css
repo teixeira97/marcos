@@ -1,0 +1,39 @@
+body{
+	background-color: red;
+}
+body section div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+section{
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container{
+width: 700px ;
+height: 700px;
+margin: 5px;
+
+}
+.item{
+width: 200px ;
+height: 200px;
+background-color: silver;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
